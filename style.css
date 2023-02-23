@@ -128,3 +128,7 @@ svg {
 #codepen > svg {
   --color: #000;
 }
+
+#portfolio {
+  cursor: not-allowed;
+}
