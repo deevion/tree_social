@@ -72,13 +72,18 @@
   color: #f9f9f9;
   font-family: 'Inter', sans-serif;
 
-  background-color: #4863f7;
+  background-color: #6d4ec9;
   transition: 0.7s;
   border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 .link:hover {
-  background-color: #6076f5;
+  background-color: #8257e6;
   color: #ffffff;
 }
 
@@ -93,4 +98,33 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   border-radius: 25px;
   background-color: #2c2c2c;
+}
+
+svg {
+  display: none;
+}
+
+.link:hover > svg {
+  display: block;
+  color: var(--color);
+}
+
+#insta > svg {
+  --color: #e44278;
+}
+
+#twitter > svg {
+  --color: #31a9f3;
+}
+
+#in > svg {
+  --color: #4dc2ff;
+}
+
+#github > svg {
+  --color: #e8e6e3;
+}
+
+#codepen > svg {
+  --color: #000;
 }
