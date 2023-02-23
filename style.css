@@ -130,5 +130,9 @@ svg {
 }
 
 #portfolio {
-  cursor: not-allowed;
+  pointer-events: none;
+}
+
+#portfolio > span {
+  color: #ffff00;
 }
