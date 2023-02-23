@@ -136,3 +136,10 @@ svg {
 #portfolio > span {
   color: #ffff00;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .link > svg {
+    display: block;
+    color: var(--color);
+  }
+}
