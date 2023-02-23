@@ -128,3 +128,18 @@ svg {
 #codepen > svg {
   --color: #000;
 }
+
+#portfolio {
+  pointer-events: none;
+}
+
+#portfolio > span {
+  color: #ffff00;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .link > svg {
+    display: block;
+    color: var(--color);
+  }
+}
