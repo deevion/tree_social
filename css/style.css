@@ -74,12 +74,6 @@
   background-color: rgba(130, 87, 230, 0.1764705882);
   color: #ffffff;
 }
-#container .main #portfolio {
-  pointer-events: none;
-}
-#container .main #portfolio > span {
-  color: #ffff00;
-}
 
 body::-webkit-scrollbar-track {
   background-color: rgb(15, 23, 42);
