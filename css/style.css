@@ -4,56 +4,58 @@
   box-sizing: border-box;
 }
 
-#container {
+body {
+  background-color: rgb(15, 23, 42);
+}
+body #app {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: rgb(15, 23, 42);
 }
-#container .header {
+body #app .header {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 40px;
 }
-#container .header .img {
+body #app .header .img {
   width: 8rem;
   padding: 0.1rem;
   border-radius: 50%;
   border: 2px solid #5d409f;
 }
-#container .main {
+body #app .main {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-bottom: 15px;
 }
-#container .main .name {
+body #app .main .name {
   font-family: "Inter", sans-serif;
   letter-spacing: 0.1rem;
   color: #f9f9f9;
 }
-#container .main .paragraph {
+body #app .main .paragraph {
   margin-top: 10px;
   margin-bottom: 15px;
   font-family: "Inter", sans-serif;
   color: rgb(143, 142, 142);
 }
-#container .main .texts {
+body #app .main .texts {
   font-family: "Inter", sans-serif;
   line-height: 25px;
   color: #8f9ba8;
   text-align: center;
   margin-bottom: 20px;
 }
-#container .main .t1 {
+body #app .main .p2 {
   font-family: "Inter", sans-serif;
   color: #f9f9f9;
   margin-bottom: 20px;
 }
-#container .main .link {
+body #app .main .link {
   margin-top: 10px;
   padding: 1.5rem;
   width: min(25rem, 90%);
@@ -70,9 +72,9 @@
   gap: 5px;
   text-align: center;
 }
-#container .main .link:hover {
-  background-color: rgba(130, 87, 230, 0.1764705882);
-  color: #ffffff;
+body #app .main .link:hover {
+  background-color: rgba(21, 53, 69, 0.2);
+  color: #38bdf8;
 }
 
 body::-webkit-scrollbar-track {
